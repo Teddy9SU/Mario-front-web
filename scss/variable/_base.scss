@@ -1,0 +1,41 @@
+// RWD規範
+$mediaSm: 'max-width:640px';
+$mediaMd: 'max-width:768px';
+$mediaMdUp: 'min-width:641px';
+
+// z-index
+$z-index-s: 1;
+$z-index-m: 2;
+$z-index-l: 3;
+$z-index-xl: 4;
+
+// 速度規範
+$speeds: (
+    slow: 0.7s,
+    normal: 0.35s,
+    fast: 0.15s
+);
+
+$timing: ease-in-out !default;
+
+$animation-banner: 15s ease-in-out both infinite;
+
+// 寬度規範
+$width-main: 80%;
+
+// 圓角規範
+$radius-infinity: calc(infinity * 1px) !default;
+$radius-s: 10px;
+$radius-l: 20px;
+
+// 邊框規範
+$border-s: solid 2px;
+
+// 區塊間距
+$interval-xy-xl: 1rem 2.5rem;
+$interval-x-m: 0 20px;
+$interval-y-s: .5rem 0;
+$interval-y-m: 2rem 0;
+$interval-s: 15px;
+$interval-m: 25px;
+$interval-xl: 12vh;

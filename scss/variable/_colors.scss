@@ -1,0 +1,19 @@
+// 灰階 
+$white: #fff4f4;
+$light: #e1e1e1;
+$deep-grey: #434040;
+$deep: #2b2828;
+$black: #0e0d0d;
+
+// 主色調
+$primary-color: #e70112 !default; 
+
+// 輔助色調
+$successr-color: #b20722;
+$successr-color2: #23b2ff;
+$successr-color3: #bc00b7;
+
+// 漸層色調
+$gradien-red:#e70112 20%,#b20722 80%;
+$gradien-repeating-deep:
+-45deg, $deep-grey, $deep-grey 6px, $deep 0, $deep 12px;
